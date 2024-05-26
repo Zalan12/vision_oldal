@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap" rel="stylesheet">
+    <style>
+        body{font-family: Reddit Sans Condensed;
+        text-align: center;
+        background-color: #303030;}
+        header{background-color: white;
+                border-radius: 5px;
+                animation-name: feljon;
+                animation-duration: 1.6s;
+                animation-fill-mode: forwards;
+                position: relative;
+                margin-left: 200px;
+                margin-right: 200px;}
+
+        h1,h2{color: #303030;}
+        .content{background-color: rgba(227, 229, 231,0.9);
+                border-radius: 3px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                }
+        p{max-width: 600px;
+        font-size: larger;
+        text-align: justify;}
+        .sor{display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            }
+        #szem{width: 400px;
+            max-width: 400px;
+            border: solid black 2px;
+            margin: 10px;
+            margin-top: 30px;
+            border-radius: 5px;}
+            @keyframes feljon{
+                0%{opacity: 0%; top: 40px;}
+                100%{opacity: 100%; top: 0px;}
+            }
+        #chip{width: 500px;
+            border-radius: 5px;
+            border: black solid 2px;}
+        h1{font-size: 40px;}
+        .bal{animation-name: bbeusz;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            position: relative;}
+        .job{animation-name: rbeusz;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            position: relative;}
+        .hatter{background-image: url(./1000_F_108115352_NmPwgzqIUgRS2ZFHmsXDg3HJ8IKFMoGa.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;}
+        #szemuveg{width: 450px;
+                    border-radius: 5px;
+                    border: black solid 2PX;
+                    margin-bottom: 30px;}
+        @keyframes bbeusz {
+            0%{margin-left: -200px; opacity: 0%;
+                }
+                100%{margin-left: 0px;}
+
+        }
+        @keyframes rbeusz {
+            0%{margin-right: -200px; opacity: 0%;
+                }
+                100%{margin-right: 0px;}
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vision™</h1>
+        <h2 style="margin-top:-10px">The sight of future</h2>
+    </header>
+    <div class="hatter">
+    <div class="content">
+        
+        <div class="sor">
+            <p class="bal">Introducing <b>Vision</b>, the cutting-edge product that revolutionizes the way you interact with the world through the power of artificial intelligence. Vision comes in two versatile options: a state-of-the-art nano chip implant and a pair of sleek, intelligent glasses. Both versions are designed to provide you with <b><i>real-time assistance</i></b> in a variety of scenarios, ensuring that you are always at your best, whether you're solving complex problems or simply navigating your daily life.</p>
+            <img src="./image.png" alt="" id="szem" class="job">
+        </div>
+        <div class="sor">
+            <img src="./untitled.png" alt="" id="chip" class="bal">
+            <p class="job">The <b>Vision</b> nano chip is an advanced brain and eye implant that seamlessly integrates with your neural and visual systems. This tiny yet powerful device acts as your personal AI assistant, enhancing your cognitive and sensory abilities. With the nano chip, you can experience an unprecedented level of interaction with your environment. For instance, it can improve your reaction time by processing information faster than your natural senses, alerting you to potential hazards or opportunities in your surroundings. If you look at an unfamiliar object, the chip instantly identifies it and provides you with relevant information, enriching your understanding and situational awareness. Additionally, the nano chip excels at memory assistance; <b>it can recall details you might have forgotten</b>, solve complex math problems on the fly, and offer insightful suggestions to aid your decision-making process. The nano chip communicates directly with your brain, allowing for a discreet and seamless user experience that keeps your focus sharp and your hands free.</p>
+        </div>
+        <div class="sor">
+            <p class="bal">For those seeking a more accessible and economical option, Vision also offers intelligent glasses that pack powerful AI capabilities into a stylish, wearable form. These glasses are equipped with <b>high-definition cameras and tiny speakers</b> that deliver auditory feedback. While the glasses provide the same essential features as the nano chip, such as object recognition, information retrieval, and problem-solving assistance, they do so in a way that others around you can hear. This can be particularly useful in collaborative settings or when sharing information with a group. The Vision glasses are designed for ease of use, making them perfect for users who prefer a non-invasive alternative while still benefiting from the cutting-edge AI support that Vision provides.</p>
+            <img src="./Envision-Glasses-Smith-Optics-Frame-3_4-top-1-scaled.jpg" alt="" id="szemuveg" class="job">
+        </div>
+    </div>
+    </div>
+
+    <script src="./vision.js"></script>
+</body>
+</html>
